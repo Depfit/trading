@@ -57,6 +57,9 @@ CONTRACTS: dict[str, ContractSpec] = {
     "MGC": ContractSpec("MGC", "Micro Gold",
                         tick_size=0.10, tick_value=1.00, fees_rt=1.50,
                         session_open=(8, 20), session_close=(13, 30), timezone="America/New_York"),
+    "GC":  ContractSpec("GC",  "Gold (100 oz)",
+                        tick_size=0.10, tick_value=10.00, fees_rt=4.60,
+                        session_open=(8, 20), session_close=(13, 30), timezone="America/New_York"),
 }
 
 

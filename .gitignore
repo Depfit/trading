@@ -7,3 +7,4 @@ __pycache__/
 prices/
 *.csv
 !tests/fixtures/*.csv
+!data/*.csv
